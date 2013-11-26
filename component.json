@@ -1,0 +1,11 @@
+{
+  "name": "banner",
+  "version": "0.0.1",
+  "styles": [
+    "index.css"
+  ],
+  "images": [
+    "images/paul-new-range.jpg",
+    "images/paul-new-range@2x.jpg"
+  ]
+}

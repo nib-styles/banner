@@ -1,0 +1,48 @@
+
+.banner-1 {
+  background-repeat: no-repeat;
+  background-position: 20px 100%;
+  padding: 50px 20px 90px;
+  text-align: center;
+  zoom: 1;
+}
+
+.no-retina .banner-1,
+.no-js .banner-1{
+  background-image:url("images/paul-new-range.jpg");
+}
+.retina .banner-1{
+  background-image:url("images/paul-new-range@2x.jpg");
+  background-size:100%;
+  background-size:auto 378px;
+}
+
+
+.banner-1:before,
+.banner-1:after {
+  content: "";
+  display: table;
+}
+
+.banner-1:after {
+  clear: both
+}
+
+.banner-1 .banner__title {
+  color: #444;
+  font-size: 54px;
+  font-weight: 200;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.banner-1 .banner__body {
+  float: right;
+  font-size:16px;
+  line-height:24px;
+  width: 650px;
+}
+
+.banner-1 .banner__content {
+  margin-bottom: 20px;
+}
