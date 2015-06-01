@@ -1,0 +1,9 @@
+{
+  "name": "@nib-styles/banner",
+  "version": "0.0.1",
+  "main.css": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-styles/banner.git"
+  }
+}
